@@ -18,7 +18,7 @@
                     <button type="button" class="btn btn-primary position-relative">
                         <small><i class="fa fa-cart-plus" aria-hidden="true"></i></small>
                         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                            <small>+ {{ $clients->count() }}</small>
+                            <small>{{ $clients->count() }} +</small>
                         </span>
                     </button>
                 </div>
